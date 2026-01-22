@@ -7,11 +7,11 @@ function checkPassword() {
 
   const message = document.getElementById("message");
 
-  if (input === "frank sinatra" || input === "sinatra") {
+  if (input === "frank sinatra" || input === "pulsar") {
     window.location.href = "wrong.html";
   } 
   else if (input === "born free") {
-    window.location.href = "stage2.html";
+    window.location.href = "imagined.html";
   } 
   else if (input === "vexxed") {
     window.location.href = "vexxed.html";
