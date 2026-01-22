@@ -2,7 +2,7 @@ function checkPassword() {
   const input = document.getElementById("password").value.toLowerCase();
   const message = document.getElementById("message");
 
-  if (input === "sinatra") {
+  if (input === "frank sinatra") or (input === "sinatra") {
     window.location.href = "wrong.html";
   } 
   else if (input === "observer") {
