@@ -7,13 +7,13 @@ function checkStage2() {
 
   const message = document.getElementById("message2");
 
-  if (input === "EPSTEIN ISLAND") {
+  if (input === "epstein island") {
     window.location.href = "stage3.html";
   }
-  else if (input === "LITTLE SAINT JAMES") {
+  else if (input === "little saint james") {
     window.location.href = "stage3.html";
-   }
-  else if (input === "EPSTEIN") {
+  }
+  else if (input === "epstein") {
     message.textContent = "YOU'RE CLOSE, JOIN HIM";
   }
   else {
