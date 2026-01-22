@@ -13,3 +13,12 @@ input, button {
   padding: 10px;
   font-family: monospace;
 }
+* {
+  pointer-events: auto !important;
+}
+
+button {
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+}
