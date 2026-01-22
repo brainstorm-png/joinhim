@@ -8,9 +8,6 @@ function checkPassword() {
   else if (input === "born free") {
     window.location.href = "stage2.html";
   } 
-  else if (input === "vexxed") {
-    window.location.href = "vexxed.html";
-  } 
   else {
     message.textContent = "ACCESS DENIED";
   }
