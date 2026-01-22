@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LOG 02</title>
+  <title>ACCESS // STAGE 02</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>ACCESS GRANTED</h1>
-  <p>LOG 02 UNSEALED</p>
+  <h1>STAGE 02</h1>
+  <p>WHERE DID HE LIVE?</p>
 
-  <!-- THE ECHO IS NOT A SOUND -->
+  <input
+    type="text"
+    id="password2"
+    placeholder="KEY"
+    onkeydown="if(event.key==='Enter'){checkStage2()}"
+  >
 
+  <button onclick="checkStage2()">SUBMIT</button>
+
+  <p id="message2"></p>
+
+  <script src="stage2.js"></script>
 </body>
 </html>
