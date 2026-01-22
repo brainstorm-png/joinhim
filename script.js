@@ -5,7 +5,7 @@ function checkPassword() {
   if (input === "frank sinatra") or (input === "sinatra") {
     window.location.href = "wrong.html";
   } 
-  else if (input === "observer") {
+  else if (input === "born free") {
     window.location.href = "stage2.html";
   } 
   else {
